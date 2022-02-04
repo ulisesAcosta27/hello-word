@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloUser from './HelloUser';
-// import HelloWorld from './HelloWorld';
+import HelloWorld from './HelloWorld';
 
 
 ReactDOM.render(
-    // <HelloWorld />,
-    <HelloUser />,
+    <HelloWorld />,
     document.getElementById('root')
 )
